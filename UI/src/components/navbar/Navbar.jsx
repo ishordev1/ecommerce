@@ -1,3 +1,8 @@
+import AccountIcon from "../common/AccountIcon";
+
+import CartIcon from "../common/CartIconIcon";
+import WishlistIcon from "../common/WishlistIcon";
+
 const Navbar = () => {
     return (
         <>
@@ -24,9 +29,9 @@ const Navbar = () => {
                 </div>
                 <div className="flex flex-wrap-item-center gap-4">
                     <ul className="flex items-center gap-8">
-                        <li>icon1</li>
-                        <li>icon2</li>
-                        <li>icon3</li>
+                        <li><button><WishlistIcon /></button></li>
+                        <li><button><AccountIcon /></button></li>
+                        <li><button><CartIcon /></button></li>
 
                     </ul>
                 </div>
